@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 20px
+		line-height: 30px;
+}
+
+/*rules*/
+
+p.caption{
+	color: #777777;
+	font-style: italic;
+	margin-top: 0;
+}
+
+h1, h2{
+	font-family: 'Press Start 2P', cursive;
+}
+h2{
+	font-size: 30px;
+	color: #e70c19;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: #e70c19;
+}
+a:hover{
+	color: white;
+	background-color: #483a94;
+}
+
+/*header element*/
+
+header{
+	background-color: #d14635;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header h1{
+	color: white;
+	font-size: 50px;
+}
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 20px solid ghostwhite;
+}
+
+/*main element*/
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+main img{
+	max-width: 100%;
+}
+
+/*footer element*/
+
+footer{
+	background-color: #d14635;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
